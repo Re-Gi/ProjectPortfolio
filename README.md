@@ -1,2 +1,2 @@
-# UTA-ChallengeTwo
-My UTA Challenge 
+# Challenge Two
+My UTA challenge two portfolio.
