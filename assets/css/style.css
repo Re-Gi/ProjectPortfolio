@@ -1,13 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
 }
 
 header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #e7e7e7;
+    padding: 10px 0;
+    width: 100%;
+    height: 100%;
 }
 
 h1 {
+    background-color: rgb(164, 190, 159);
+    font-size: 40px;
+    color: #e7e7e7;
+    padding: 10px;
+    width: 430px;
+    height: 100%;
+    text-align: right;
 }
 
 nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 30px;
+}
+
+nav a {
+    font-size: 20px;
+    color: rgb(164, 190, 159);
 }
 
 figure {
@@ -18,3 +52,22 @@ main {
 
 section {
 }
+
+/* .nav-list {
+    align-self: flex-end;
+    gap: 10px;
+} */
+
+/* .nav-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+} */
+
+/* .nav-box > ul {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 30px;
+} */
