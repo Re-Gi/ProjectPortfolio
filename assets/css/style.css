@@ -38,10 +38,17 @@ nav ul {
     gap: 30px;
 }
 
-nav a {
+nav a:link, nav a:visited {
     font-size: 20px;
     font-weight: bolder;
     color: rgb(164, 190, 159);
+    text-decoration: none;
+    border-bottom: 3px solid;
+}
+
+nav a:hover, nav a:active {
+    color: rgb(135, 163, 130);
+    background-color: transparent;
 }
 
 figure {
@@ -86,6 +93,24 @@ article {
     flex: 2;
     padding: 0 20px;
     border-left: 5px solid rgb(135, 163, 130);
+}
+
+article ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+a:link, a:visited {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+    border-bottom: 3px solid rgb(135, 163, 130); 
+}
+
+a:hover, a:active {
+  background-color: rgb(135, 163, 130);
 }
 
 p {
