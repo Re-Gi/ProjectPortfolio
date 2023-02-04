@@ -1,6 +1,6 @@
 :root {
     --dark: rgb(63, 63, 63);
-    --light: #e7e7e7;
+    --light: #f5f5f5;
     --lgreen: rgb(164, 190, 159);
     --dgreen: rgb(135, 163, 130);
 }
@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: var(--light);
     font-family: "Times New Roman", Times, serif;
 }
 
@@ -25,7 +25,7 @@ header {
 h1 {
     background-color: var(--lgreen);
     font-size: 45px;
-    color: var(--light);
+    color: var(--dark);
     padding: 10px;
     width: 430px;
     height: 100%;
@@ -48,13 +48,13 @@ nav ul {
 nav a:link, nav a:visited {
     font-size: 22px;
     font-weight: bolder;
-    color: var(--lgreen);
+    color: var(--dgreen);
     text-decoration: none;
     border-bottom: 3px solid;
 }
 
 nav a:hover, nav a:active {
-    color: var(--dgreen);
+    color: var(--lgreen);
     background-color: transparent;
 }
 
@@ -65,13 +65,13 @@ figure {
     margin-bottom: 25px;
     background-image: url("../images/pexels-louis-2101187.jpg");
     background-size: cover;
-    background-position: center;
+    background-attachment: fixed;
 }
 
 figure h2 {
     background-color: var(--lgreen);
     font-size: 27px;
-    color: var(--light);
+    color: var(--dark);
     padding: 10px;
     position: absolute;
     bottom: 25px;
@@ -145,7 +145,7 @@ h4 {
     z-index: 1;
     background-color: var(--dgreen);
     font-size: 27px;
-    color: var(--light);
+    color: var(--dark);
     padding: 10px;
     padding-left: 35px;
     width: fit-content;
@@ -155,7 +155,7 @@ h4 {
 h4 p {
     font-family: monospace;
     font-size: 12px;
-    color: var(--dark);
+    color: var(--light);
     margin: 0;
 }
 
