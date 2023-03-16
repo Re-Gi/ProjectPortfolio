@@ -15,10 +15,11 @@ function App() {
         <Router>
         <ThemeProvider
             breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-            minBreakpoint="xxs"
+            minBreakpoint="xxs" 
         >
+            <main>
             <Header />
-            <div className="container App">
+            <div className="container app-container">
             <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
@@ -27,6 +28,7 @@ function App() {
             </Routes>
             </div>
             <Footer />
+            </main>
         </ThemeProvider>
         </Router>
       );

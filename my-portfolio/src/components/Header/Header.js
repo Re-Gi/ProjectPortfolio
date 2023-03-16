@@ -13,8 +13,8 @@ function Header() {
 
   return (
     <>
-        <Navbar collapseOnSelect bg="light" expand="sm" className="mb-3">
-          <Container>
+        <Navbar collapseOnSelect expand="sm" className="nav-outer-container mb-3">
+          <Container className='nav-inner-container'>
             <Navbar.Brand>Rebecca Girndt</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
@@ -27,20 +27,6 @@ function Header() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-     {/* <Nav className="justify-content-end">
-        <Nav.Item>
-          <Link to="/">About</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to="/projects">Projects</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to="/contact">Contact</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to="/resume">Resume</Link>
-        </Nav.Item>
-      </Nav> */}
     </>
   );
 }
