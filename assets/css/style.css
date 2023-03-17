@@ -145,6 +145,7 @@ h4 {
     z-index: 1;
     background-color: var(--dgreen);
     font-size: 27px;
+    line-height: 1.5;
     color: var(--dark);
     padding: 10px;
     padding-left: 35px;
@@ -155,6 +156,7 @@ h4 {
 h4 p {
     font-family: monospace;
     font-size: 12px;
+    line-height: 1;
     color: var(--light);
     margin: 0;
 }
